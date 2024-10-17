@@ -1,0 +1,53 @@
+
+.jstree-node {
+    background-image: none !important;
+}
+
+.jstree-default .jstree-wholerow-clicked {
+    background: transparent;
+    background: transparent;
+    background: transparent;
+}
+.jstree-default .jstree-wholerow-hovered {
+    background: transparent;
+}
+.jstree-default>.jstree-no-dots .jstree-closed>.jstree-ocl {
+    background-position: 0px 2px;
+}
+.jstree-default>.jstree-no-dots .jstree-open>.jstree-ocl {
+    background-position: 5px 4px;
+}
+.jstree-default .jstree-icon:empty {
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+}
+.jstree-default .jstree-themeicon {
+    background-position: -166px -3px;
+    background-size: 200px;
+}
+
+i.jstree-icon.jstree-ocl {
+    background-image: url(../../images/jstree/images/default.svg) !important;
+    background-size: 6px !important;
+    filter: invert(0.9);
+    background-repeat: no-repeat !important;
+} 
+.jstree-open > i.jstree-icon.jstree-ocl {
+    background-image: url(../../images/jstree/images/open.svg) !important;
+    width: 20px;
+    height: 20px;
+    background-size: 10px !important;
+    position: relative;
+    left: -5px;
+}
+.jstree-default>.jstree-no-dots .jstree-open>.jstree-ocl {
+    background-position: 5px 4px;
+}
+.jstree-default .jstree-anchor {
+    line-height: 1;
+    height: 24px;
+    color: #b5b5c3;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 14px;
+}

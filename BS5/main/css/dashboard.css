@@ -1,0 +1,246 @@
+
+.custom-text-primary {
+    color: #658EF5 !important;
+}
+.custom-text-secondary {
+    color: #7388AB !important;
+}
+
+.withIcon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.textHighlight {
+    background: #2F405E;
+}
+
+.text-theme {
+    color: #7388AB !important;
+}
+
+.bg-theme-warning {
+    background-color: #ffa800;
+    border-color: #ffa800;
+}
+
+.kleos-ico {
+    color: #fff;
+}
+
+.circle-outline {
+    width: 16px;
+    height: 16px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-outline .circle {
+    width: 9.6px;
+    height: 9.6px;
+}
+
+.bodyIcon {
+    background: #2F405D;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-theme {
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 18px;
+}
+
+.form-control.input-theme {
+    height: 50px;
+    border: 1px solid #142644;
+}
+
+input.check-theme {
+    left: 10px !important;
+    opacity: 1 !important;
+    width: 20px;
+    height: 20px;
+}
+
+.btn-not-focus, .btn-not-focus:hover, .btn-not-focus:active, .btn-not-focus:target:active {
+    border: 0;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+thead.highlight tr th {
+    background: #081326;
+}
+
+
+tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+/* chart css */
+.custom-pills {
+    background: #2F405E;
+    width: auto;
+    display: inline-flex;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.custom-pills li.nav-item a {
+    color: #fff;
+}
+
+.custom-pills li.nav-item > a.active {
+    background: #6993FF !important;
+    border-top-color: #6993FF;
+}
+.custom-pills.nav-pills > li > a.active:hover, .custom-pills.nav-pills > li > a.active:focus {
+    border-top-color: #6993FF;
+    background-color: #6993FF !important;
+}
+
+.toolbar.custom-toolbar {
+    background: #2F405E;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.toolbar.custom-toolbar .btn.btn-theme-warning {
+    /* background: #6993FF; */
+    color: #fff;
+    /* border-color: #6993FF; */
+}
+
+.toolbar.custom-toolbar .btn.btn-theme-warning.active {
+    background: #6993FF;
+    color: #fff;
+    border-color: #6993FF;
+}
+
+@media (max-width: 991px) {
+    .widget-box h1 {
+        font-size: 40px !important;
+    }
+
+    .widget-box h2 {
+        font-size: 28px !important;
+    }
+
+    .widget-box h4 {
+        font-size: 18px !important;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .widget-box h1 {
+        font-size: 6vw !important;
+    }
+
+    .widget-box h2 {
+        font-size: 4vw !important;
+    }
+
+    .widget-box h4 {
+        font-size: 3.4vw !important;
+    }
+}
+
+figure.rank-img img {
+    width: 240px;
+}
+
+.pagination li a:focus, .pagination li span:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.pagination li span {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 50px;
+    padding: 1rem;
+    margin: 0 3px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #737373;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    text-align: center;
+    box-shadow: 0 0 0 0;
+}
+
+.theme-primary .btn-primary-light {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.theme-info span.btn-primary-light {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.theme-danger span.btn-primary-light {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.theme-success span.btn-primary-light {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.theme-warning .btn-primary-light {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.theme-primary span.btn-primary-light:hover, 
+.theme-primary span.btn-primary-light:active, 
+span.theme-primary span.btn-primary-light:focus, 
+span.theme-primary span.btn-primary-light.active {
+    background-color: transparent!important;
+    border-color: transparent!important;
+    color: #6993ff!important;
+}
+
+.theme-info span.btn-primary-light:hover, 
+.theme-info span.btn-primary-light:active, 
+span.theme-info span.btn-primary-light:focus, 
+span.theme-info span.btn-primary-light.active {
+    background-color: transparent!important;
+    border-color: transparent!important;
+    color: #8950fc!important;
+}
+
+.theme-danger span.btn-primary-light:hover, 
+.theme-danger span.btn-primary-light:active, 
+span.theme-danger span.btn-primary-light:focus, 
+span.theme-danger span.btn-primary-light.active {
+    background-color: transparent!important;
+    border-color: transparent!important;
+    color: #f64e60!important;
+}
+
+.theme-success span.btn-primary-light:hover, 
+.theme-success span.btn-primary-light:active, 
+.theme-success span.btn-primary-light:focus, 
+.theme-success span.btn-primary-light.active {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: #1bc5bd !important;
+}
+
+.theme-warning span.btn-primary-light:hover, 
+.theme-warning span.btn-primary-light:active, 
+.theme-warning span.btn-primary-light:focus, 
+.theme-warning span.btn-primary-light.active {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: #ffa800 !important;
+}
